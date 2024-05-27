@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  exercise12:
+    image: frontend
+    ports:
+      - 5000:5000
+    container_name: frontend
+
+  exercise13:
+    image: backend
+    ports:
+      - 8080:8080
+    container_name: backend
