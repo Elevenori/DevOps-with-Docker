@@ -1,3 +1,3 @@
 Changed where: the backend Dockerfile
 
-Changed what: Set 'ENV REQUEST_ORIGIN=http://localhost' instead of 'ENV REQUEST_ORIGIN=http://localhost:5000'
+Changed what: set 'ENV REQUEST_ORIGIN=http://localhost' instead of 'ENV REQUEST_ORIGIN=http://localhost:5000'
