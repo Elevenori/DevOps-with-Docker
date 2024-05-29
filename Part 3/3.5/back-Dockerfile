@@ -1,0 +1,20 @@
+FROM alpine:latest
+
+RUN apk add --no-cache go
+
+WORKDIR /usr/src/app
+
+EXPOSE 8080
+
+ENV REQUEST_ORIGIN=http://localhost:5000
+
+COPY . .
+
+RUN go build
+
+RUN addgroup -S appgroup
+RUN adduser -S appuser -G appgroup
+USER appuser
+
+
+CMD ./server
