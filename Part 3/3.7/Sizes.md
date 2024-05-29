@@ -9,6 +9,6 @@ after
 ```
 C:\Windows\System32\devops\example-frontend>docker images
 REPOSITORY                                   TAG               IMAGE ID       CREATED          SIZE
-frontendv2                                   latest            dd80c6cb1f51   2 minutes ago    439MB
-backend                                      latest            4b1908ce4115   15 minutes ago   447MB
+frontendv2                                   latest            f09f2b8df59b   14 seconds ago   347MB
+backend                                      latest            4b1908ce4115   4 hours ago      447MB
 ```
